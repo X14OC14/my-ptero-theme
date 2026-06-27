@@ -490,3 +490,76 @@ div.SubNavigation-sc-lfuaoi-0::-webkit-scrollbar {
 div.SubNavigation-sc-lfuaoi-0 {
   scrollbar-width: none !important;
 }
+
+/* ============================================================
+   GLASSMORPHISM
+   ============================================================ */
+
+/* Card stats (Address, Memory, dll) */
+div.style-module_V4CSEpa4 {
+  background-color: rgba(0,0,0,0.45) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
+}
+
+/* Grey row boxes / content cards */
+div.GreyRowBox-sc-1xo9c6v-0,
+.GreyRowBox-sc-1xo9c6v-0,
+a.GreyRowBox-sc-1xo9c6v-0,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP,
+div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.jRrWLs,
+div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ,
+div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf,
+div.CreateBackupButton___StyledDiv2-sc-da8bqw-3.eDncUf,
+div.icon.mr-4,
+.group {
+  background-color: rgba(0,0,0,0.45) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
+}
+
+/* Login card */
+div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
+  background-color: rgba(0,0,0,0.45) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 16px !important;
+}
+
+/* Console/terminal area */
+div.style-module_uC90C8g3 {
+  background-color: rgba(0,0,0,0.60) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border-radius: 10px !important;
+}
+
+/* Chart cards */
+div.style-module_j35sQtg2 {
+  background-color: rgba(0,0,0,0.45) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 12px !important;
+}
+
+/* Modal */
+div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr {
+  background-color: rgba(0,0,0,0.70) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 16px !important;
+}
+
+/* Navbar */
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
+  background-color: rgba(0,0,0,0.55) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+}
