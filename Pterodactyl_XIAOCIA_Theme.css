@@ -29,12 +29,12 @@ div.GreyRowBox-sc-1xo9c6v-0 {
 }
 
 div.style-module_1n_DiqmT {
-  background-color: rgba(0,0,0,0) !important; 
+  background-color: rgba(0,0,0,0) !important;
   padding: 5px !important;
 }
 
 button.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI {
-  background-color: #38282B !important; 
+  background-color: #38282B !important;
   border: #38282B 2px solid !important;
   border-radius: 10px !important;
 }
@@ -99,9 +99,9 @@ label.Label-sc-g780ms-0 {
 
 img.LoginFormContainer___StyledImg-sc-cyh04c-5 {
   content:url('https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/logo.png') !important;
-  padding-left: 20px !important; 
-  padding-right: 20px !important; 
-  padding-top: 0px !important; 
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  padding-top: 0px !important;
   padding-bottom: 0px !important;
 }
 
@@ -110,10 +110,6 @@ div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7 {
 }
 
 div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
-  background-color: rgba(0,0,0,0.5) !important; 
-}
-
-div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -176,7 +172,7 @@ input.peer.style-module_3TDo--Tn {
 }
 
 div.relative.style-module_1AMtO9lt {
-  padding-left: 5px !important; 
+  padding-left: 5px !important;
   padding-right: 5px !important;
 }
 
@@ -192,7 +188,7 @@ input.Input-sc-19rce1w-0.jqTCDz,
 input.Input-sc-19rce1w-0.floJYL,
 input.Input-sc-19rce1w-0.fFYzlR,
 textarea.Input__Textarea-sc-19rce1w-1.kKFWRA {
-  background-color: rgba(56, 40, 43, 0.3) !important; 
+  background-color: rgba(56, 40, 43, 0.3) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
@@ -201,7 +197,7 @@ input.Input-sc-19rce1w-0.jqTCDz:hover,
 input.Input-sc-19rce1w-0.floJYL:hover,
 input.Input-sc-19rce1w-0.fFYzlR:hover,
 textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:hover {
-  background-color: rgba(56, 40, 43, 0.3) !important; 
+  background-color: rgba(56, 40, 43, 0.3) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
@@ -210,7 +206,7 @@ input.Input-sc-19rce1w-0.jqTCDz:focus,
 input.Input-sc-19rce1w-0.floJYL:focus,
 input.Input-sc-19rce1w-0.fFYzlR:focus,
 textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:focus {
-  background-color: rgba(56, 40, 43, 0.3) !important; 
+  background-color: rgba(56, 40, 43, 0.3) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
@@ -239,7 +235,7 @@ div.SubNavigation-sc-lfuaoi-0.jZPsWO {
   background-color: rgba(0,0,0,0) !important;
 }
 
-div.CodeMirror { 
+div.CodeMirror {
   background-color: rgba(0,0,0,0.6) !important;
 }
 
@@ -350,27 +346,27 @@ div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {
 }
 
 div.TaskDetailsModal___StyledDiv5-sc-1b5dnyw-7.kNHdmD {
-  background-color: rgba(56, 40, 43, 0.3) !important; 
+  background-color: rgba(56, 40, 43, 0.3) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
 
 select.Select-sc-17exaqp-0.dupyoa {
-  background-color: rgba(56, 40, 43, 0.3) !important; 
+  background-color: rgba(56, 40, 43, 0.3) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
 
 option {
-  background-color: rgba(56, 40, 43, 1) !important; 
+  background-color: rgba(56, 40, 43, 1) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
 
 div.style-module_1RnhIT0w {
-  background-color: rgba(56, 40, 43, 1) !important; 
-  color: #a0a0a0 !important; 
-  border-radius: 5px !important; 
+  background-color: rgba(56, 40, 43, 1) !important;
+  color: #a0a0a0 !important;
+  border-radius: 5px !important;
   box-shadow: 0 0 10px #38282B !important;
 }
 
@@ -379,15 +375,15 @@ div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
 }
 
 div.ScheduleTaskRow___StyledDiv-sc-17r38ls-0.ipThkt {
-  background-color: rgba(0, 0, 0,1) !important; 
+  background-color: rgba(0, 0, 0,1) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
 
 div.grid-cols-10 {
-  background-color: rgba(0, 0, 0,1) !important; 
+  background-color: rgba(0, 0, 0,1) !important;
   border: 2px solid #38282B !important;
-  color: #a0a0a0 !important; 
+  color: #a0a0a0 !important;
   margin-bottom: 5px !important;
 }
 
@@ -544,4 +540,18 @@ button.style-module_tpzh9TL4.style-module_G19Z2bxH {
   border: 1px solid rgba(255,255,255,0.15) !important;
   border-radius: 8px !important;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.15) !important;
+}
+
+/* ============================================================
+   ACTIVITY PAGE
+   ============================================================ */
+
+/* Activity row — setiap baris log */
+a.GreyRowBox-sc-1xo9c6v-0 {
+  background-color: rgba(255,255,255,0.06) !important;
+  backdrop-filter: blur(14px) !important;
+  -webkit-backdrop-filter: blur(14px) !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 10px !important;
+  margin-bottom: 4px !important;
 }
