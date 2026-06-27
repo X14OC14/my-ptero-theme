@@ -628,3 +628,66 @@ div.style-module_uC90C8g3.relative {
   border: 1px solid rgba(255,255,255,0.06) !important;
   border-radius: 10px !important;
 }
+
+/* ============================================================
+   GLASSMORPHISM ENHANCED
+   ============================================================ */
+
+div.style-module_V4CSEpa4,
+div.GreyRowBox-sc-1xo9c6v-0,
+.GreyRowBox-sc-1xo9c6v-0,
+a.GreyRowBox-sc-1xo9c6v-0,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP,
+div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.jRrWLs,
+div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ,
+div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf,
+div.style-module_j35sQtg2 {
+  background-color: rgba(255,255,255,0.07) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255,255,255,0.18) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.12) !important;
+}
+
+div.style-module_uC90C8g3.relative {
+  background-color: rgba(0,0,0,0.60) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  border-radius: 10px !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06) !important;
+}
+
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
+  background-color: rgba(255,255,255,0.06) !important;
+  backdrop-filter: blur(20px) !important;
+  -webkit-backdrop-filter: blur(20px) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.15) !important;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.3) !important;
+}
+
+div.SubNavigation-sc-lfuaoi-0 {
+  background-color: rgba(255,255,255,0.04) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.10) !important;
+}
+
+/* Dark overlay di atas background */
+html::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  z-index: 0;
+  pointer-events: none;
+}
+
+#app {
+  position: relative;
+  z-index: 1;
+}
