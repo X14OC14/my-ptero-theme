@@ -433,3 +433,40 @@ body.bg-neutral-900 {
 body.bg-neutral-800 {
   background-color: transparent !important;
 }
+
+div.App___StyledDiv-sc-2l91w7-0.brYtKD {
+  background-color: transparent !important;
+}
+
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.bg-gray-700 {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+.bg-gray-800 {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+.bg-gray-600 {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+.bg-neutral-700 {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+.bg-neutral-600 {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+div.style-module_V4CSEpa4 {
+  background-color: rgba(0,0,0,0.4) !important;
+}
+
+div.SubNavigation-sc-lfuaoi-0.brHKuZ,
+div.SubNavigation-sc-lfuaoi-0.brHKuZ.fade-appear-done.fade-enter-done {
+  background-color: rgba(0,0,0,0) !important;
+}
