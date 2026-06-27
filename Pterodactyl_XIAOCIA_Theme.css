@@ -1,31 +1,5 @@
-/* ============================================================
-   XIAOCIA Pterodactyl Theme
-   Base: Nightcore Theme by NoPro200 & Angelillo15
-   Modified by: XIAOCIA
-   Accent: #3c3843 | Surface: rgba(0,0,0,0.50)
-   ============================================================ */
-
-/* --- VARIABLES --- */
-:root {
-  --accent:        #38282B;
-  --accent-dark:   #261a1d;
-  --accent-dim:    rgba(56, 40, 43, 0.20);
-  --accent-border: rgba(56, 40, 43, 0.40);
-  --surface:       rgba(0, 0, 0, 0.50);
-  --surface-dark:  rgba(0, 0, 0, 0.70);
-  --input-bg:      rgba(56, 40, 43, 0.08);
-  --input-border:  rgba(56, 40, 43, 0.30);
-  --text-muted:    #a0a0a0;
-  --scrollbar-w:   8px;
-}
-
-/* ============================================================
-   BACKGROUND
-   Ganti URL di bawah ke path gambar lo di VPS
-   ============================================================ */
-html,
-div.App___StyledDiv-sc-2l91w7-0.fnfeQw {
-  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/bg.webp"); /* <-- GANTI INI */
+html {
+  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/bg.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -33,284 +7,422 @@ div.App___StyledDiv-sc-2l91w7-0.fnfeQw {
   background-color: transparent;
 }
 
-/* ============================================================
-   SCROLLBAR — global
-   ============================================================ */
-::-webkit-scrollbar         { width: var(--scrollbar-w) !important; }
-::-webkit-scrollbar-track   { background: #1a1a1a !important; }
-::-webkit-scrollbar-thumb   { background: var(--accent) !important; border-radius: 10px !important; }
+::-webkit-scrollbar {width: 10px !important;}
+::-webkit-scrollbar-track{background: #36393F !important;}
+::-webkit-scrollbar-thumb{background: #727272 !important;border-radius: 10px !important;}
 
-/* ============================================================
-   SCROLLBAR — xterm terminal (fix duplicate + conflicting rules)
-   ============================================================ */
-div.xterm-viewport {
-  border-radius: 4px !important;
-  background: rgb(13, 17, 23) !important;
-  scrollbar-color: var(--accent) #000000 !important;
-  scrollbar-width: thin !important;
-}
-div.xterm-viewport::-webkit-scrollbar         { width: var(--scrollbar-w); }
-div.xterm-viewport::-webkit-scrollbar-button  { display: none; }
-div.xterm-viewport::-webkit-scrollbar-thumb   { border-radius: 4px; background-color: var(--accent) !important; }
-div.xterm-viewport::-webkit-scrollbar-track   { background-color: #000000; }
-
-/* ============================================================
-   SURFACE CARDS — generic grey boxes
-   (class-hash selectors kept as-is; stable Tailwind selectors added)
-   ============================================================ */
-div.GreyRowBox-sc-1xo9c6v-0,
-.GreyRowBox-sc-1xo9c6v-0,
-a.GreyRowBox-sc-1xo9c6v-0,
-div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP,
-div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.jRrWLs,
-div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ,
-div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf,
-div.CreateBackupButton___StyledDiv2-sc-da8bqw-3.eDncUf,
-div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0,
-div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7,
-div.EditScheduleModal___StyledDiv2-sc-wh9db9-4.fhEpAC,
-div.EditScheduleModal___StyledDiv4-sc-wh9db9-6.jyDDEO,
-div.EditScheduleModal___StyledDiv5-sc-wh9db9-7.ueIjC,
-div.icon.mr-4,
-.group {
-  background-color: var(--surface) !important;
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2 {
+  background-color: rgba(0,0,0,0.5) !important;
 }
 
-/* ============================================================
-   SERVER ROW
-   ============================================================ */
-a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2 {
-  background-color: var(--surface) !important;
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2.jbVWLN {
+  background-color: rgba(0,0,0,0.5) !important;
+  background-size: cover;
+
 }
 
-/* ============================================================
-   SUBNAV / SIDEBAR
-   ============================================================ */
-div.SubNavigation-sc-lfuaoi-0.jZPsWO,
 div.SubNavigation-sc-lfuaoi-0.jZPsWO.fade-appear-done.fade-enter-done {
-  background-color: transparent !important;
+  background-color: rgba(0,0,0,0) !important;
+}
+div.GreyRowBox-sc-1xo9c6v-0 {
+  background-color: rgba(0,0,0,0.5) !important;
 }
 
 div.style-module_1n_DiqmT {
-  background-color: transparent !important;
+  background-color: rgba(0,0,0,0) !important; 
   padding: 5px !important;
 }
 
-.style-module_1WqkLT9X,
-.style-module_1WqkLT9X:hover {
-  background-color: #000000 !important;
-}
-
-.style-module_35MPv1CD.active,
-.style-module_35MPv1CD.active:hover,
-a.style-module_35MPv1CD.active {
-  background-color: var(--accent-dim) !important;
-}
-
-/* ============================================================
-   NAV BAR
-   ============================================================ */
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: rgba(0, 0, 0, 0.80) !important; /* fix: typo argb() → rgba() */
-}
-
-/* ============================================================
-   BUTTONS
-   ============================================================ */
-button.Button__ButtonStyle-sc-1qu1gou-0,
-button.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI,
-button.style-module_4LBM1DKx.style-module_3kBDV_wo,
-button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2UCZLAAp {
-  background-color: var(--accent) !important;
-  border: 2px solid var(--accent) !important;
+button.Button__ButtonStyle-sc-1qu1gou-0.dLAOsI {
+  background-color: #38282B !important; 
+  border: #38282B 2px solid !important;
   border-radius: 10px !important;
 }
 
-button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1 {
-  background-color: var(--surface) !important;
-  border: none !important;
-}
-
-/* ============================================================
-   SETTINGS SIDEBAR ACCENT
-   ============================================================ */
 div.SettingsContainer___StyledDiv6-sc-1e5ycmz-7.bzLcIU {
-  border-left: 4px solid var(--accent) !important;
+  border-left: 4px solid #38282B !important;
 }
 
-/* ============================================================
-   INPUTS & TEXTAREAS
-   ============================================================ */
-input.Input-sc-19rce1w-0.jqTCDz,
-input.Input-sc-19rce1w-0.floJYL,
-input.Input-sc-19rce1w-0.fFYzlR,
-textarea.Input__Textarea-sc-19rce1w-1.kKFWRA {
-  background-color: var(--input-bg) !important;
-  border: 2px solid var(--input-border) !important;
-  color: var(--text-muted) !important;
+label.Label-sc-g780ms-0.eDArzA {
+  color: #a0a0a0 !important;
 }
 
-input.Input-sc-19rce1w-0.jqTCDz:hover,
-input.Input-sc-19rce1w-0.floJYL:hover,
-input.Input-sc-19rce1w-0.fFYzlR:hover,
-textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:hover,
-input.Input-sc-19rce1w-0.jqTCDz:focus,
-input.Input-sc-19rce1w-0.floJYL:focus,
-input.Input-sc-19rce1w-0.fFYzlR:focus,
-textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:focus {
-  background-color: var(--input-bg) !important;
-  border: 2px solid var(--accent) !important;
-  color: #ffffff !important;
+button.style-module_4LBM1DKx.style-module_3kBDV_wo { /* change */
+  background-color:#38282B !important;
+  border-radius: 10px !important;
 }
 
-input.peer.style-module_3TDo--Tn {
-  background-color: var(--surface) !important;
-  border-radius: 10px;
+button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2UCZLAAp {
+  background-color:#38282B !important;
+  border-radius: 10px !important;
 }
 
-input.peer.style-module_3TDo--Tn:focus {
-  border-bottom: 2px solid var(--accent);
-  border-radius: 10px;
+div.xterm-viewport {
+  border-radius: 2px !important;
+  background-color: rgba(0,0,0,0.5) !important;
+  scrollbar-color: #38282B !important; 
+  scrollbar-width: thin !important;  
+  background: black !important;
+  background-color: rgb(19, 26, 32); 
+  scrollbar-color: #38282B #000000 !important;
+
+}
+
+div.xterm-viewport::-webkit-scrollbar {
+  border-radius: 4px;
+}
+
+div.xterm-viewport::-webkit-scrollbar-button {
+  display: none;
+}
+
+div.xterm-viewport::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: #38282B !important; 
+}
+
+div.xterm-viewport::-webkit-scrollbar-track {
+  background-color: #000000; /* Hintergrundfarbe des Scrollbereichs */
 }
 
 div.style-module_3TDo--Tn {
   border-radius: 10px !important;
 }
 
-/* ============================================================
-   SELECTS & DROPDOWNS
-   ============================================================ */
-select.Select-sc-17exaqp-0.dupyoa {
-  background-color: var(--input-bg) !important;
-  border: 2px solid var(--input-border) !important;
-  color: var(--text-muted) !important;
+div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
+  background-color: rgba(0,0,0,0.5) !important;
 }
 
-option {
-  background-color: #1a1d40 !important;
-  color: var(--text-muted) !important;
+label.Label-sc-g780ms-0 {
+  color: #a0a0a0 !important;
 }
 
-div.style-module_1RnhIT0w {
-  background-color: #1a1d40 !important;
-  color: var(--text-muted) !important;
-  border-radius: 5px !important;
-  box-shadow: 0 0 10px var(--accent-dark) !important;
+img.LoginFormContainer___StyledImg-sc-cyh04c-5 {
+  content:url('https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/logo.png') !important;
+  padding-left: 20px !important; 
+  padding-right: 20px !important; 
+  padding-top: 0px !important; 
+  padding-bottom: 0px !important;
 }
 
-/* ============================================================
-   LABELS
-   ============================================================ */
-label.Label-sc-g780ms-0,
-label.Label-sc-g780ms-0.eDArzA {
-  color: var(--text-muted) !important;
+div.style-module_1n_DiqmT {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
+  background-color: rgba(0,0,0,0.5) !important; 
+}
+
+div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
+  background-color: rgba(0,0,0,0.5) !important; 
+}
+
+div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
+  background-color: rgba(0,0,0,0.5) !important; 
+}
+
+div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
+  background-color: rgba(0,0,0,0.5) !important; 
+}
+
+div.grid.grid-cols-6.gap-2.md:gap-4.col-span-4.lg:col-span-1.order-last.lg:order-none {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.style-module_2Vp6MaXq.bg-gray-600.cursor-pointer {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.style-module_2Vp6MaXq.bg-gray-600 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.style-module_2XbmHEcn.group {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
+  background-color: rgba(0,0,0,0.8);
+  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/bg.webp");
+}
+
+div.icon.mr-4 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+a.style-module_35MPv1CD.style-module_35MPv1CD.active {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+
+.style-module_1WqkLT9X {
+  background-color: #000000 !important;
+}
+
+.style-module_1WqkLT9X:hover {
+  background-color: #000000 !important;
+}
+
+.style-module_35MPv1CD.active {
+  background-color: #000000 !important;
+}
+
+.style-module_35MPv1CD.active:hover {
+  background-color: #000000 !important;
+}
+div.GreyRowBox-sc-1xo9c6v-0.iTERJN.flex-wrap.md:flex-nowrap.mt-2 {
+  background-color: #000000
+}
+
+div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ {
+  background-color: rgba(0,0,0,0.5) !important;
 }
 
 p.input-help {
-  color: var(--accent) !important; /* original was red, changed to accent */
+  color: red !important;
 }
 
-/* ============================================================
-   MODALS
-   ============================================================ */
-div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr {
-  background-color: #0d0d0f !important;
-}
 
-/* ============================================================
-   LOGIN PAGE
-   ============================================================ */
-div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
-  background-color: var(--surface-dark) !important;
-}
-
-/* Logo — ganti URL ke logo lo sendiri */
-img.LoginFormContainer___StyledImg-sc-cyh04c-5 {
-  content: url('https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/logo.png') !important; /* <-- GANTI INI */
-  padding: 0 20px !important;
-}
-
-/* ============================================================
-   CODEMIRROR (FILE EDITOR)
-   ============================================================ */
-div.CodeMirror,
-div.CodeMirror-gutters {
-  background-color: rgba(0, 0, 0, 0.60) !important;
-}
-
-div.CodeMirror-overlayscroll-vertical {
-  background-color: transparent !important;
-}
-
-/* ============================================================
-   SCHEDULE & TASK ROWS
-   ============================================================ */
-div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
-  border-bottom: 4px solid var(--accent-border) !important;
-}
-
-div.ScheduleTaskRow___StyledDiv-sc-17r38ls-0.ipThkt {
-  background-color: var(--surface-dark) !important;
-  border: 2px solid var(--input-border) !important;
-  color: var(--text-muted) !important;
-}
-
-div.TaskDetailsModal___StyledDiv5-sc-1b5dnyw-7.kNHdmD {
-  background-color: var(--input-bg) !important;
-  border: 2px solid var(--input-border) !important;
-  color: var(--text-muted) !important;
-}
-
-a.GreyRowBox-sc-1xo9c6v-0.ScheduleContainer___StyledGreyRowBox-sc-dlqnx9-2.dyLna-D.bppajE {
-  background-color: var(--surface) !important;
-}
-
-/* ============================================================
-   MISC ROWS
-   ============================================================ */
-div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last\:rounded-b.last\:border-0.group,
-div.grid-cols-10 {
-  background-color: var(--surface) !important;
-  border: 1px solid var(--input-border) !important;
-  color: var(--text-muted) !important;
-  margin-bottom: 5px !important;
-}
-
-div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none {
-  background-color: var(--surface) !important;
-}
-
-div.style-module_2Vp6MaXq.bg-gray-600,
-div.style-module_2Vp6MaXq.bg-gray-600.cursor-pointer,
-div.style-module_2XbmHEcn.group,
-div.module_2XbmHEcn.group {
-  background-color: var(--surface) !important;
+input.peer.style-module_3TDo--Tn:focus {
+  border-bottom: 2px solid #38282B;
   border-radius: 10px;
 }
 
-div.bg-gray-700 {
-  background-color: transparent !important;
-  border: none !important;
-}
-
-div.GreyRowBox-sc-1xo9c6v-0.iTERJN.flex-wrap.md\:flex-nowrap.mt-2,
-div.GreyRowBox-sc-1xo9c6v-0.DatabaseRow___StyledGreyRowBox-sc-1t67zwr-13.iTERJN.gkSIus,
-div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn {
-  background-color: var(--surface) !important;
-}
-
-div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGreyBox-sc-163imy2-1.kRunTE {
-  background-color: var(--surface) !important;
-}
-
-div.flex.justify-end.space-x-4.mt-4.w-full.md\:mt-0.md\:w-48 {
-  background-color: var(--surface) !important;
+input.peer.style-module_3TDo--Tn {
+  border-bottom: 0px solid red;
+  border-radius: 10px;
 }
 
 div.relative.style-module_1AMtO9lt {
-  padding: 0 5px !important;
+  padding-left: 5px !important; 
+  padding-right: 5px !important;
+}
+
+div.style-module_2Vp6MaXq.bg-gray-600 {
+  border-radius: 10px;
+}
+
+div.module_2XbmHEcn.group {
+  border-radius: 10px;
+}
+
+/* Normalzustand */
+input.Input-sc-19rce1w-0.jqTCDz,
+input.Input-sc-19rce1w-0.floJYL,
+input.Input-sc-19rce1w-0.fFYzlR,
+textarea.Input__Textarea-sc-19rce1w-1.kKFWRA {
+  background-color: rgba(56, 40, 43, 0.3) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+/* Hover-Zustand */
+input.Input-sc-19rce1w-0.jqTCDz:hover,
+input.Input-sc-19rce1w-0.floJYL:hover,
+input.Input-sc-19rce1w-0.fFYzlR:hover,
+textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:hover {
+  background-color: rgba(56, 40, 43, 0.3) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+/* Focus-Zustand */
+input.Input-sc-19rce1w-0.jqTCDz:focus,
+input.Input-sc-19rce1w-0.floJYL:focus,
+input.Input-sc-19rce1w-0.fFYzlR:focus,
+textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:focus {
+  background-color: rgba(56, 40, 43, 0.3) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+/* Beispiel für spezifischeren Zustand */
+input.Input-sc-19rce1w-0.fFYzlR {
+  background-color: rgba(56, 40, 43, 0.3) !important;
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+
+
+button.Button__ButtonStyle-sc-1qu1gou-0 {
+  background-color: #38282B !important;
+  border: 2px solid #38282B !important;
+  border-radius: 10px !important;
+}
+
+
+
+
+
+
+div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.jRrWLs {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.SubNavigation-sc-lfuaoi-0.jZPsWO {
+  background-color: rgba(0,0,0,0) !important;
+}
+
+div.CodeMirror { 
+  background-color: rgba(0,0,0,0.6) !important;
+}
+div.CodeMirror-gutters {
+  background-color: rgba(0,0,0,0.6) !important;
+}
+
+div.CodeMirror-overlayscroll-vertical {
+  background-color: rgba(0,0,0,0);
+}
+
+div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr {
+  background-color: #000000
+}
+
+input.peer.style-module_3TDo--Tn {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.GreyRowBox-sc-1xo9c6v-0.DatabaseRow___StyledGreyRowBox-sc-1t67zwr-13.iTERJN.gkSIus {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.EditScheduleModal___StyledDiv2-sc-wh9db9-4.fhEpAC {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.EditScheduleModal___StyledDiv4-sc-wh9db9-6.jyDDEO {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.EditScheduleModal___StyledDiv5-sc-wh9db9-7.ueIjC {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+a.GreyRowBox-sc-1xo9c6v-0.ScheduleContainer___StyledGreyRowBox-sc-dlqnx9-2.dyLna-D.bppajE {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.CreateBackupButton___StyledDiv2-sc-da8bqw-3.eDncUf {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+textarea.Input__Textarea-sc-19rce1w-1.kKFWRA {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.flex.justify-end.space-x-4.mt-4.w-full.md:mt-0.md:w-48 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+select.Select-sc-17exaqp-0.dupyoa {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGreyBox-sc-163imy2-1.kRunTE {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.App___StyledDiv-sc-2l91w7-0.fnfeQw {
+  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/bg.webp");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: transparent;
+}
+
+a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D {
+  background-color: #000000
 }
 
 label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover {
-  background-color: var(--surface) !important;
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.bg-gray-700 {
+  background-color:rgba(0,0,0,0) !important;
+  border: 0px solid #38282B !important;
+}
+
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.group {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+.GreyRowBox-sc-1xo9c6v-0 {
+  background-color: rgba(0,0,0,0.5) !important;
+}
+
+div.TaskDetailsModal___StyledDiv5-sc-1b5dnyw-7.kNHdmD {
+  background-color: rgba(56, 40, 43, 0.3) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+select.Select-sc-17exaqp-0.dupyoa {
+  background-color: rgba(56, 40, 43, 0.3) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+option {
+  background-color: rgba(56, 40, 43, 1) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+div.style-module_1RnhIT0w {
+  background-color: rgba(56, 40, 43, 1) !important; 
+  color: #a0a0a0 !important; 
+  border-radius: 5px !important; 
+  box-shadow: 0 0 10px #38282B !important;
+}
+
+div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7.bNXcqn {
+  border-bottom: 4px solid #38282B !important;
+}
+
+div.ScheduleTaskRow___StyledDiv-sc-17r38ls-0.ipThkt {
+  background-color: rgba(0, 0, 0,1) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important;
+}
+
+div.grid-cols-10 {
+  background-color: rgba(0, 0, 0,1) !important; 
+  border: 2px solid #38282B !important;
+  color: #a0a0a0 !important; 
+  margin-bottom: 5px !important;
 }
