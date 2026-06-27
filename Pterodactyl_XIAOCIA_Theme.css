@@ -719,3 +719,41 @@ button.style-module_tpzh9TL4.style-module_G19Z2bxH {
   border-radius: 8px !important;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.15) !important;
 }
+
+/* Broad glass override untuk semua halaman */
+div[class*="ContentContainer"],
+div[class*="PageContentBlock"],
+div[class*="TitledGreyBox"],
+div[class*="GreyRowBox"],
+div[class*="ServerContentBlock"],
+div[class*="SettingsContainer"] {
+  background-color: rgba(255,255,255,0.07) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.10) !important;
+}
+
+/* File manager rows */
+div[class*="FileManagerRow"],
+div[class*="FileObjectRow"],
+div.grid.grid-cols-10 {
+  background-color: rgba(255,255,255,0.05) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 8px !important;
+  margin-bottom: 2px !important;
+}
+
+/* Activity rows */
+a[class*="GreyRowBox"],
+div[class*="ActivityEntry"],
+div[class*="ActivityLog"] {
+  background-color: rgba(255,255,255,0.06) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border: 1px solid rgba(255,255,255,0.08) !important;
+  border-radius: 10px !important;
+}
