@@ -557,13 +557,6 @@ div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr {
   border-radius: 16px !important;
 }
 
-/* Navbar */
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: rgba(0,0,0,0.55) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-}
-
 /* Navbar utama (LOL HOSTING) */
 div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
   background-color: rgba(0,0,0,0.55) !important;
@@ -657,14 +650,6 @@ div.style-module_uC90C8g3.relative {
   border: 1px solid rgba(255,255,255,0.12) !important;
   border-radius: 10px !important;
   box-shadow: 0 4px 24px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06) !important;
-}
-
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: rgba(255,255,255,0.06) !important;
-  backdrop-filter: blur(20px) !important;
-  -webkit-backdrop-filter: blur(20px) !important;
-  border-bottom: 1px solid rgba(255,255,255,0.15) !important;
-  box-shadow: 0 2px 16px rgba(0,0,0,0.3) !important;
 }
 
 div.SubNavigation-sc-lfuaoi-0 {
