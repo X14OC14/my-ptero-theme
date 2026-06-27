@@ -478,3 +478,15 @@ div.w-full.bg-neutral-900.shadow-md.overflow-x-auto::-webkit-scrollbar {
 div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
   scrollbar-width: none !important;
 }
+
+div.ProgressBar___StyledDiv-sc-14ayc3f-1 {
+  display: none !important;
+}
+
+div.SubNavigation-sc-lfuaoi-0::-webkit-scrollbar {
+  display: none !important;
+}
+
+div.SubNavigation-sc-lfuaoi-0 {
+  scrollbar-width: none !important;
+}
