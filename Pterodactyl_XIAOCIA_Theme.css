@@ -579,3 +579,35 @@ div.SubNavigation-sc-lfuaoi-0 {
   -webkit-backdrop-filter: blur(12px) !important;
   border-bottom: 1px solid rgba(255,255,255,0.06) !important;
 }
+
+/* Tombol Start/Restart/Stop — tetap berwarna, tambah glass */
+button.style-module_tpzh9TL4 {
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  border-radius: 8px !important;
+}
+
+/* Console output area */
+div.style-module_uC90C8g3,
+div.style-module_LI1icUp6 {
+  background-color: rgba(0,0,0,0.65) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  border-radius: 10px !important;
+}
+
+/* xterm terminal */
+div.xterm-viewport {
+  background-color: transparent !important;
+}
+
+/* Command input area */
+div.style-module_kBA8Pcfy {
+  background-color: rgba(0,0,0,0.50) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border-top: 1px solid rgba(255,255,255,0.06) !important;
+  border-radius: 0 0 10px 10px !important;
+}
