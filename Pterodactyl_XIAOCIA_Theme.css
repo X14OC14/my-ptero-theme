@@ -470,3 +470,11 @@ div.SubNavigation-sc-lfuaoi-0.brHKuZ,
 div.SubNavigation-sc-lfuaoi-0.brHKuZ.fade-appear-done.fade-enter-done {
   background-color: rgba(0,0,0,0) !important;
 }
+
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto::-webkit-scrollbar {
+  display: none !important;
+}
+
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
+  scrollbar-width: none !important;
+}
