@@ -563,3 +563,19 @@ div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
   backdrop-filter: blur(12px) !important;
   -webkit-backdrop-filter: blur(12px) !important;
 }
+
+/* Navbar utama (LOL HOSTING) */
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
+  background-color: rgba(0,0,0,0.55) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
+}
+
+/* SubNavigation (Console, Files, dll) */
+div.SubNavigation-sc-lfuaoi-0 {
+  background-color: rgba(0,0,0,0.40) !important;
+  backdrop-filter: blur(12px) !important;
+  -webkit-backdrop-filter: blur(12px) !important;
+  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
+}
