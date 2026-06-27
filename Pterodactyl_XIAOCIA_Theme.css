@@ -730,3 +730,9 @@ div.w-full.bg-neutral-900.shadow-md.overflow-x-auto{
         inset 0 1px 0 rgba(255,255,255,.06),
         0 6px 24px rgba(0,0,0,.35) !important;
 }
+
+/* Files list background */
+.style-module_HHpjDvv7 {
+    background: transparent !important;
+    background-color: transparent !important;
+}
