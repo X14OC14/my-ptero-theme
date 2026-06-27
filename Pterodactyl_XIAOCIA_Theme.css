@@ -426,3 +426,6 @@ div.grid-cols-10 {
   color: #a0a0a0 !important; 
   margin-bottom: 5px !important;
 }
+body.bg-neutral-900 {
+  background-color: transparent !important;
+}
