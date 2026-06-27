@@ -18,12 +18,12 @@ a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRw
 a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2.jbVWLN {
   background-color: rgba(0,0,0,0.5) !important;
   background-size: cover;
-
 }
 
 div.SubNavigation-sc-lfuaoi-0.jZPsWO.fade-appear-done.fade-enter-done {
   background-color: rgba(0,0,0,0) !important;
 }
+
 div.GreyRowBox-sc-1xo9c6v-0 {
   background-color: rgba(0,0,0,0.5) !important;
 }
@@ -47,7 +47,7 @@ label.Label-sc-g780ms-0.eDArzA {
   color: #a0a0a0 !important;
 }
 
-button.style-module_4LBM1DKx.style-module_3kBDV_wo { /* change */
+button.style-module_4LBM1DKx.style-module_3kBDV_wo {
   background-color:#38282B !important;
   border-radius: 10px !important;
 }
@@ -59,13 +59,9 @@ button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2UCZLAAp {
 
 div.xterm-viewport {
   border-radius: 2px !important;
-  background-color: rgba(0,0,0,0.5) !important;
-  scrollbar-color: #38282B !important; 
-  scrollbar-width: thin !important;  
-  background: black !important;
-  background-color: rgb(19, 26, 32); 
   scrollbar-color: #38282B #000000 !important;
-
+  scrollbar-width: thin !important;
+  background: rgb(19, 26, 32) !important;
 }
 
 div.xterm-viewport::-webkit-scrollbar {
@@ -78,11 +74,11 @@ div.xterm-viewport::-webkit-scrollbar-button {
 
 div.xterm-viewport::-webkit-scrollbar-thumb {
   border-radius: 4px;
-  background-color: #38282B !important; 
+  background-color: #38282B !important;
 }
 
 div.xterm-viewport::-webkit-scrollbar-track {
-  background-color: #000000; /* Hintergrundfarbe des Scrollbereichs */
+  background-color: #000000;
 }
 
 div.style-module_3TDo--Tn {
@@ -90,7 +86,11 @@ div.style-module_3TDo--Tn {
 }
 
 div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
-  background-color: rgba(0,0,0,0.5) !important;
+  background-color: rgba(0,0,0,0.45) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 16px !important;
 }
 
 label.Label-sc-g780ms-0 {
@@ -105,10 +105,6 @@ img.LoginFormContainer___StyledImg-sc-cyh04c-5 {
   padding-bottom: 0px !important;
 }
 
-div.style-module_1n_DiqmT {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
 div.ScheduleEditContainer___StyledDiv3-sc-1fhsmlc-7 {
   background-color: rgba(0,0,0,0.5) !important;
 }
@@ -117,23 +113,7 @@ div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
   background-color: rgba(0,0,0,0.5) !important; 
 }
 
-div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
-  background-color: rgba(0,0,0,0.5) !important; 
-}
-
-div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
-  background-color: rgba(0,0,0,0.5) !important; 
-}
-
-div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
-  background-color: rgba(0,0,0,0.5) !important;
-}
-
-div.ScheduleEditContainer___StyledDiv-sc-1fhsmlc-0 {
-  background-color: rgba(0,0,0,0.5) !important; 
-}
-
-div.grid.grid-cols-6.gap-2.md:gap-4.col-span-4.lg:col-span-1.order-last.lg:order-none {
+div.grid.grid-cols-6.gap-2.md\:gap-4.col-span-4.lg\:col-span-1.order-last.lg\:order-none {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -149,11 +129,6 @@ div.style-module_2XbmHEcn.group {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: rgba(0,0,0,0.8);
-  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/bg.webp");
-}
-
 div.icon.mr-4 {
   background-color: rgba(0,0,0,0.5) !important;
 }
@@ -161,7 +136,6 @@ div.icon.mr-4 {
 a.style-module_35MPv1CD.style-module_35MPv1CD.active {
   background-color: rgba(0,0,0,0.5) !important;
 }
-
 
 .style-module_1WqkLT9X {
   background-color: #000000 !important;
@@ -178,7 +152,8 @@ a.style-module_35MPv1CD.style-module_35MPv1CD.active {
 .style-module_35MPv1CD.active:hover {
   background-color: #000000 !important;
 }
-div.GreyRowBox-sc-1xo9c6v-0.iTERJN.flex-wrap.md:flex-nowrap.mt-2 {
+
+div.GreyRowBox-sc-1xo9c6v-0.iTERJN.flex-wrap.md\:flex-nowrap.mt-2 {
   background-color: #000000
 }
 
@@ -189,7 +164,6 @@ div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ {
 p.input-help {
   color: red !important;
 }
-
 
 input.peer.style-module_3TDo--Tn:focus {
   border-bottom: 2px solid #38282B;
@@ -214,7 +188,6 @@ div.module_2XbmHEcn.group {
   border-radius: 10px;
 }
 
-/* Normalzustand */
 input.Input-sc-19rce1w-0.jqTCDz,
 input.Input-sc-19rce1w-0.floJYL,
 input.Input-sc-19rce1w-0.fFYzlR,
@@ -224,7 +197,6 @@ textarea.Input__Textarea-sc-19rce1w-1.kKFWRA {
   color: #a0a0a0 !important;
 }
 
-/* Hover-Zustand */
 input.Input-sc-19rce1w-0.jqTCDz:hover,
 input.Input-sc-19rce1w-0.floJYL:hover,
 input.Input-sc-19rce1w-0.fFYzlR:hover,
@@ -234,7 +206,6 @@ textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:hover {
   color: #a0a0a0 !important;
 }
 
-/* Focus-Zustand */
 input.Input-sc-19rce1w-0.jqTCDz:focus,
 input.Input-sc-19rce1w-0.floJYL:focus,
 input.Input-sc-19rce1w-0.fFYzlR:focus,
@@ -244,14 +215,11 @@ textarea.Input__Textarea-sc-19rce1w-1.kKFWRA:focus {
   color: #a0a0a0 !important;
 }
 
-/* Beispiel für spezifischeren Zustand */
 input.Input-sc-19rce1w-0.fFYzlR {
   background-color: rgba(56, 40, 43, 0.3) !important;
   border: 2px solid #38282B !important;
   color: #a0a0a0 !important;
 }
-
-
 
 button.Button__ButtonStyle-sc-1qu1gou-0 {
   background-color: #38282B !important;
@@ -259,12 +227,7 @@ button.Button__ButtonStyle-sc-1qu1gou-0 {
   border-radius: 10px !important;
 }
 
-
-
-
-
-
-div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group {
+div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last\:rounded-b.last\:border-0.group {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -279,6 +242,7 @@ div.SubNavigation-sc-lfuaoi-0.jZPsWO {
 div.CodeMirror { 
   background-color: rgba(0,0,0,0.6) !important;
 }
+
 div.CodeMirror-gutters {
   background-color: rgba(0,0,0,0.6) !important;
 }
@@ -292,7 +256,11 @@ div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf {
 }
 
 div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr {
-  background-color: #000000
+  background-color: rgba(0,0,0,0.70) !important;
+  backdrop-filter: blur(16px) !important;
+  -webkit-backdrop-filter: blur(16px) !important;
+  border: 1px solid rgba(255,255,255,0.10) !important;
+  border-radius: 16px !important;
 }
 
 input.peer.style-module_3TDo--Tn {
@@ -335,7 +303,7 @@ textarea.Input__Textarea-sc-19rce1w-1.kKFWRA {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
-div.flex.justify-end.space-x-4.mt-4.w-full.md:mt-0.md:w-48 {
+div.flex.justify-end.space-x-4.mt-4.w-full.md\:mt-0.md\:w-48 {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -370,10 +338,6 @@ div.bg-gray-700 {
 }
 
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP {
-  background-color: rgba(0,0,0,0.5) !important;
-}
-
-div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
@@ -426,6 +390,7 @@ div.grid-cols-10 {
   color: #a0a0a0 !important; 
   margin-bottom: 5px !important;
 }
+
 body.bg-neutral-900 {
   background-color: transparent !important;
 }
@@ -436,10 +401,6 @@ body.bg-neutral-800 {
 
 div.App___StyledDiv-sc-2l91w7-0.brYtKD {
   background-color: transparent !important;
-}
-
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: rgba(0,0,0,0.5) !important;
 }
 
 .bg-gray-700 {
@@ -495,16 +456,7 @@ div.SubNavigation-sc-lfuaoi-0 {
    GLASSMORPHISM
    ============================================================ */
 
-/* Card stats (Address, Memory, dll) */
-div.style-module_V4CSEpa4 {
-  background-color: rgba(0,0,0,0.45) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  border-radius: 12px !important;
-}
-
-/* Grey row boxes / content cards */
+div.style-module_V4CSEpa4,
 div.GreyRowBox-sc-1xo9c6v-0,
 .GreyRowBox-sc-1xo9c6v-0,
 a.GreyRowBox-sc-1xo9c6v-0,
@@ -514,133 +466,7 @@ div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ,
 div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf,
 div.CreateBackupButton___StyledDiv2-sc-da8bqw-3.eDncUf,
 div.icon.mr-4,
-.group {
-  background-color: rgba(0,0,0,0.45) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  border-radius: 12px !important;
-}
-
-/* Login card */
-div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
-  background-color: rgba(0,0,0,0.45) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
-  border: 1px solid rgba(255,255,255,0.10) !important;
-  border-radius: 16px !important;
-}
-
-/* Console/terminal area */
-div.style-module_uC90C8g3 {
-  background-color: rgba(0,0,0,0.60) !important;
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  border-radius: 10px !important;
-}
-
-/* Chart cards */
-div.style-module_j35sQtg2 {
-  background-color: rgba(0,0,0,0.45) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  border-radius: 12px !important;
-}
-
-/* Modal */
-div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr {
-  background-color: rgba(0,0,0,0.70) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
-  border: 1px solid rgba(255,255,255,0.10) !important;
-  border-radius: 16px !important;
-}
-
-/* Navbar */
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: rgba(0,0,0,0.55) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-}
-
-/* Navbar utama (LOL HOSTING) */
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
-  background-color: rgba(0,0,0,0.55) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
-  border-bottom: 1px solid rgba(255,255,255,0.08) !important;
-}
-
-/* SubNavigation (Console, Files, dll) */
-div.SubNavigation-sc-lfuaoi-0 {
-  background-color: rgba(0,0,0,0.40) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border-bottom: 1px solid rgba(255,255,255,0.06) !important;
-}
-
-/* Tombol Start/Restart/Stop — tetap berwarna, tambah glass */
-button.style-module_tpzh9TL4 {
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  border: 1px solid rgba(255,255,255,0.12) !important;
-  border-radius: 8px !important;
-}
-
-/* Console output area */
-div.style-module_uC90C8g3,
-div.style-module_LI1icUp6 {
-  background-color: rgba(0,0,0,0.65) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 10px !important;
-}
-
-/* xterm terminal */
-div.xterm-viewport {
-  background-color: transparent !important;
-}
-
-/* Command input area */
-div.style-module_kBA8Pcfy {
-  background-color: rgba(0,0,0,0.50) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  border-top: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 0 0 10px 10px !important;
-}
-
-/* Tombol Start/Restart/Stop */
-button.style-module_tpzh9TL4.style-module_G19Z2bxH {
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  border: 1px solid rgba(255,255,255,0.12) !important;
-  border-radius: 8px !important;
-}
-
-/* Console area */
-div.style-module_uC90C8g3.relative {
-  background-color: rgba(0,0,0,0.65) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 10px !important;
-}
-
-/* ============================================================
-   GLASSMORPHISM ENHANCED
-   ============================================================ */
-
-div.style-module_V4CSEpa4,
-div.GreyRowBox-sc-1xo9c6v-0,
-.GreyRowBox-sc-1xo9c6v-0,
-a.GreyRowBox-sc-1xo9c6v-0,
-div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP,
-div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.jRrWLs,
-div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ,
-div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf,
+.group,
 div.style-module_j35sQtg2 {
   background-color: rgba(255,255,255,0.07) !important;
   backdrop-filter: blur(16px) !important;
@@ -674,7 +500,7 @@ div.SubNavigation-sc-lfuaoi-0 {
   border-bottom: 1px solid rgba(255,255,255,0.10) !important;
 }
 
-/* Dark overlay di atas background */
+/* Dark overlay */
 html::after {
   content: '';
   position: fixed;
@@ -692,7 +518,7 @@ html::after {
   z-index: 1;
 }
 
-/* Command input area "Type a command..." */
+/* Command input area */
 div.style-module_LI1icUp6.style-module_kBA8Pcfy {
   background-color: rgba(255,255,255,0.06) !important;
   backdrop-filter: blur(12px) !important;
@@ -711,49 +537,11 @@ div.flex.sm\:justify-end.space-x-2 {
   padding: 6px !important;
 }
 
-/* Tombol individual tetap warna asalnya tapi glass */
+/* Tombol individual */
 button.style-module_tpzh9TL4.style-module_G19Z2bxH {
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   border: 1px solid rgba(255,255,255,0.15) !important;
   border-radius: 8px !important;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.15) !important;
-}
-
-/* Broad glass override untuk semua halaman */
-div[class*="ContentContainer"],
-div[class*="PageContentBlock"],
-div[class*="TitledGreyBox"],
-div[class*="GreyRowBox"],
-div[class*="ServerContentBlock"],
-div[class*="SettingsContainer"] {
-  background-color: rgba(255,255,255,0.07) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
-  border: 1px solid rgba(255,255,255,0.12) !important;
-  border-radius: 12px !important;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.10) !important;
-}
-
-/* File manager rows */
-div[class*="FileManagerRow"],
-div[class*="FileObjectRow"],
-div.grid.grid-cols-10 {
-  background-color: rgba(255,255,255,0.05) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  border-radius: 8px !important;
-  margin-bottom: 2px !important;
-}
-
-/* Activity rows */
-a[class*="GreyRowBox"],
-div[class*="ActivityEntry"],
-div[class*="ActivityLog"] {
-  background-color: rgba(255,255,255,0.06) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border: 1px solid rgba(255,255,255,0.08) !important;
-  border-radius: 10px !important;
 }
