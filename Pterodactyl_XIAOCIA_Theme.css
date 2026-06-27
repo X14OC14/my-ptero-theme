@@ -706,8 +706,23 @@ button.style-module_tpzh9TL4.style-module_G19Z2bxH {
 }
 
 /* Navbar kanan (icon search, settings, avatar) */
-div.NavigationBar__RightNavigation-sc-tupl2x-0 {
-  background-color: rgba(0,0,0,0.55) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
+div.NavigationBar__RightNavigation-sc-tupl2x-0,
+div[class*="NavigationBar__Right"],
+div[class*="NavigationBar__Left"] {
+  background: transparent !important;
+  background-image: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Unified top navbar */
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto{
+  background:#38282B !important;
+  background-image:none !important;
+  backdrop-filter:none !important;
+  -webkit-backdrop-filter:none !important;
+  border:none !important;
+  box-shadow:none !important;
 }
