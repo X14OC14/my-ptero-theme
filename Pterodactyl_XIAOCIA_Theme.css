@@ -611,3 +611,20 @@ div.style-module_kBA8Pcfy {
   border-top: 1px solid rgba(255,255,255,0.06) !important;
   border-radius: 0 0 10px 10px !important;
 }
+
+/* Tombol Start/Restart/Stop */
+button.style-module_tpzh9TL4.style-module_G19Z2bxH {
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+  border: 1px solid rgba(255,255,255,0.12) !important;
+  border-radius: 8px !important;
+}
+
+/* Console area */
+div.style-module_uC90C8g3.relative {
+  background-color: rgba(0,0,0,0.65) !important;
+  backdrop-filter: blur(10px) !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  border: 1px solid rgba(255,255,255,0.06) !important;
+  border-radius: 10px !important;
+}
