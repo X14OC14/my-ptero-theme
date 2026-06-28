@@ -724,7 +724,6 @@ div.style-module_kBA8Pcfy {
     border-radius: 0 !important;
 }
 
-
 /* Clip xterm canvas biar ga overflow */
 div.style-module_uC90C8g3.relative .xterm,
 div.style-module_uC90C8g3.relative .xterm-screen,
@@ -734,6 +733,18 @@ div.style-module_uC90C8g3.relative .xterm-screen canvas {
 }
 
 div.style-module_uC90C8g3.relative {
+    overflow: hidden !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+div.style-module_uC90C8g3.relative * {
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+div.style-module_uC90C8g3 {
     overflow: hidden !important;
     max-width: 100% !important;
 }
