@@ -706,3 +706,29 @@ textarea.Input__Textarea-sc-19rce1w-1.bg-neutral-800 {
     background: rgba(255,255,255,0.06) !important;
     border: 1px solid rgba(255,255,255,0.10) !important;
 }
+
+/* ==========================
+   ACTIVITY PAGE
+   ========================== */
+
+/* Activity row card */
+div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last\:rounded-b.last\:border-0.group {
+    background: rgba(255,255,255,0.05) !important;
+    backdrop-filter: blur(12px) !important;
+    -webkit-backdrop-filter: blur(12px) !important;
+    border: 1px solid rgba(255,255,255,0.08) !important;
+    border-radius: 10px !important;
+    margin-bottom: 4px !important;
+}
+
+/* Blur IP, reveal on hover */
+div.style-module_MnMgRF73 strong {
+    filter: blur(4px) !important;
+    transition: filter 0.2s ease !important;
+    cursor: pointer !important;
+    user-select: none !important;
+}
+
+div.style-module_MnMgRF73:hover strong {
+    filter: blur(0px) !important;
+}
