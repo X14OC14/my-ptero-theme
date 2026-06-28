@@ -57,8 +57,6 @@ button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2UCZLAAp {
   border-radius: 10px !important;
 }
 
-
-
 div.xterm-viewport::-webkit-scrollbar {
   border-radius: 4px;
 }
@@ -73,7 +71,7 @@ div.xterm-viewport::-webkit-scrollbar-thumb {
 }
 
 div.xterm-viewport::-webkit-scrollbar-track {
-  background-color: #000000; /* Hintergrundfarbe des Scrollbereichs */
+  background-color: #000000;
 }
 
 div.style-module_3TDo--Tn {
@@ -153,7 +151,6 @@ a.style-module_35MPv1CD.style-module_35MPv1CD.active {
   background-color: rgba(0,0,0,0.5) !important;
 }
 
-
 .style-module_1WqkLT9X {
   background-color: #000000 !important;
 }
@@ -180,7 +177,6 @@ div.TitledGreyBox___StyledDiv3-sc-gvsoy-4.fKIIIQ {
 p.input-help {
   color: red !important;
 }
-
 
 input.peer.style-module_3TDo--Tn:focus {
   border-bottom: 2px solid #38282B;
@@ -242,18 +238,11 @@ input.Input-sc-19rce1w-0.fFYzlR {
   color: #a0a0a0 !important;
 }
 
-
-
 button.Button__ButtonStyle-sc-1qu1gou-0 {
   background-color: #38282B !important;
   border: 2px solid #38282B !important;
   border-radius: 10px !important;
 }
-
-
-
-
-
 
 div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group {
   background-color: rgba(0,0,0,0.5) !important;
@@ -417,6 +406,7 @@ div.grid-cols-10 {
   color: #a0a0a0 !important;
   margin-bottom: 5px !important;
 }
+
 body.bg-neutral-900 {
   background-color: transparent !important;
 }
@@ -522,8 +512,6 @@ div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
   border-radius: 16px !important;
 }
 
-
-
 /* Chart cards */
 div.style-module_j35sQtg2 {
   background-color: rgba(0,0,0,0.45) !important;
@@ -542,7 +530,7 @@ div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr {
   border-radius: 16px !important;
 }
 
-/* Navbar utama (LOL HOSTING) */
+/* Navbar utama */
 div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
   background-color: rgba(0,0,0,0.55) !important;
   backdrop-filter: blur(16px) !important;
@@ -550,7 +538,7 @@ div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
   border-bottom: 1px solid rgba(255,255,255,0.08) !important;
 }
 
-/* SubNavigation (Console, Files, dll) */
+/* SubNavigation */
 div.SubNavigation-sc-lfuaoi-0 {
   background-color: rgba(0,0,0,0.40) !important;
   backdrop-filter: blur(12px) !important;
@@ -558,7 +546,7 @@ div.SubNavigation-sc-lfuaoi-0 {
   border-bottom: 1px solid rgba(255,255,255,0.06) !important;
 }
 
-/* Tombol Start/Restart/Stop — tetap berwarna, tambah glass */
+/* Tombol Start/Restart/Stop */
 button.style-module_tpzh9TL4 {
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
@@ -566,21 +554,12 @@ button.style-module_tpzh9TL4 {
   border-radius: 8px !important;
 }
 
-
-
-
-
-
-
-/* Tombol Start/Restart/Stop */
 button.style-module_tpzh9TL4.style-module_G19Z2bxH {
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
   border: 1px solid rgba(255,255,255,0.12) !important;
   border-radius: 8px !important;
 }
-
-
 
 /* ============================================================
    GLASSMORPHISM ENHANCED
@@ -602,8 +581,6 @@ div.style-module_j35sQtg2 {
   border-radius: 12px !important;
   box-shadow: 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.12) !important;
 }
-
-
 
 div.SubNavigation-sc-lfuaoi-0 {
   background-color: rgba(255,255,255,0.04) !important;
@@ -630,8 +607,6 @@ html::after {
   z-index: 1;
 }
 
-
-
 /* Container tombol Start/Restart/Stop */
 div.flex.sm\:justify-end.space-x-2 {
   background-color: rgba(255,255,255,0.05) !important;
@@ -642,7 +617,6 @@ div.flex.sm\:justify-end.space-x-2 {
   padding: 6px !important;
 }
 
-/* Tombol individual tetap warna asalnya tapi glass */
 button.style-module_tpzh9TL4.style-module_G19Z2bxH {
   backdrop-filter: blur(8px) !important;
   -webkit-backdrop-filter: blur(8px) !important;
@@ -651,7 +625,7 @@ button.style-module_tpzh9TL4.style-module_G19Z2bxH {
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.15) !important;
 }
 
-/* Navbar kanan (icon search, settings, avatar) */
+/* Navbar kanan */
 div.NavigationBar__RightNavigation-sc-tupl2x-0,
 div[class*="NavigationBar__Right"],
 div[class*="NavigationBar__Left"] {
@@ -664,13 +638,11 @@ div[class*="NavigationBar__Left"] {
 }
 
 /* Unified top navbar */
-div.w-full.bg-neutral-900.shadow-md.overflow-x-auto{
+div.w-full.bg-neutral-900.shadow-md.overflow-x-auto {
     background: rgba(25,15,18,.42) !important;
     background-image: none !important;
-
     backdrop-filter: blur(18px) saturate(180%) !important;
     -webkit-backdrop-filter: blur(18px) saturate(180%) !important;
-
     border-bottom: 1px solid rgba(255,255,255,.08) !important;
     box-shadow:
         inset 0 1px 0 rgba(255,255,255,.06),
@@ -683,9 +655,6 @@ div.w-full.bg-neutral-900.shadow-md.overflow-x-auto{
     background-color: transparent !important;
 }
 
-
-
-
 /* ==========================
    UNIFIED CONSOLE
    ========================== */
@@ -694,7 +663,6 @@ div.style-module_uC90C8g3.relative {
     background: rgba(255,255,255,.06) !important;
     backdrop-filter: blur(16px) !important;
     -webkit-backdrop-filter: blur(16px) !important;
-
     border: 1px solid rgba(255,255,255,.12) !important;
     border-radius: 12px !important;
     overflow: hidden !important;
@@ -718,33 +686,7 @@ div.style-module_kBA8Pcfy {
     background: transparent !important;
     backdrop-filter: none !important;
     -webkit-backdrop-filter: none !important;
-
     border: 0 !important;
     border-top: 1px solid rgba(255,255,255,.08) !important;
     border-radius: 0 !important;
-}
-
-/* Clip xterm canvas biar ga overflow */
-div.style-module_uC90C8g3.relative .xterm,
-div.style-module_uC90C8g3.relative .xterm-screen,
-div.style-module_uC90C8g3.relative .xterm-screen canvas {
-    max-width: 100% !important;
-    overflow: hidden !important;
-}
-
-div.style-module_uC90C8g3.relative {
-    overflow: hidden !important;
-    max-width: 100% !important;
-    width: 100% !important;
-    box-sizing: border-box !important;
-}
-
-div.style-module_uC90C8g3.relative * {
-    max-width: 100% !important;
-    box-sizing: border-box !important;
-}
-
-div.style-module_uC90C8g3 {
-    overflow: hidden !important;
-    max-width: 100% !important;
 }
