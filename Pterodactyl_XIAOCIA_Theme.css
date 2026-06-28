@@ -57,16 +57,7 @@ button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_2UCZLAAp {
   border-radius: 10px !important;
 }
 
-div.xterm-viewport {
-  border-radius: 2px !important;
-  background-color: rgba(0,0,0,0.5) !important;
-  scrollbar-color: #38282B !important;
-  scrollbar-width: thin !important;
-  background: black !important;
-  background-color: rgb(19, 26, 32);
-  scrollbar-color: #38282B #000000 !important;
 
-}
 
 div.xterm-viewport::-webkit-scrollbar {
   border-radius: 4px;
@@ -531,13 +522,7 @@ div.LoginFormContainer___StyledDiv-sc-cyh04c-3 {
   border-radius: 16px !important;
 }
 
-/* Console/terminal area */
-div.style-module_uC90C8g3 {
-  background-color: rgba(0,0,0,0.60) !important;
-  backdrop-filter: blur(8px) !important;
-  -webkit-backdrop-filter: blur(8px) !important;
-  border-radius: 10px !important;
-}
+
 
 /* Chart cards */
 div.style-module_j35sQtg2 {
@@ -581,29 +566,11 @@ button.style-module_tpzh9TL4 {
   border-radius: 8px !important;
 }
 
-/* Console output area */
-div.style-module_uC90C8g3,
-div.style-module_LI1icUp6 {
-  background-color: rgba(0,0,0,0.65) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 10px !important;
-}
 
-/* xterm terminal */
-div.xterm-viewport {
-  background-color: transparent !important;
-}
 
-/* Command input area */
-div.style-module_kBA8Pcfy {
-  background-color: rgba(0,0,0,0.50) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  border-top: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 0 0 10px 10px !important;
-}
+
+
+
 
 /* Tombol Start/Restart/Stop */
 button.style-module_tpzh9TL4.style-module_G19Z2bxH {
@@ -613,14 +580,7 @@ button.style-module_tpzh9TL4.style-module_G19Z2bxH {
   border-radius: 8px !important;
 }
 
-/* Console area */
-div.style-module_uC90C8g3.relative {
-  background-color: rgba(0,0,0,0.65) !important;
-  backdrop-filter: blur(10px) !important;
-  -webkit-backdrop-filter: blur(10px) !important;
-  border: 1px solid rgba(255,255,255,0.06) !important;
-  border-radius: 10px !important;
-}
+
 
 /* ============================================================
    GLASSMORPHISM ENHANCED
@@ -643,14 +603,7 @@ div.style-module_j35sQtg2 {
   box-shadow: 0 4px 24px rgba(0,0,0,0.3), inset 0 1px 0 rgba(255,255,255,0.12) !important;
 }
 
-div.style-module_uC90C8g3.relative {
-  background-color: rgba(0,0,0,0.60) !important;
-  backdrop-filter: blur(16px) !important;
-  -webkit-backdrop-filter: blur(16px) !important;
-  border: 1px solid rgba(255,255,255,0.12) !important;
-  border-radius: 10px !important;
-  box-shadow: 0 4px 24px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.06) !important;
-}
+
 
 div.SubNavigation-sc-lfuaoi-0 {
   background-color: rgba(255,255,255,0.04) !important;
@@ -677,14 +630,7 @@ html::after {
   z-index: 1;
 }
 
-/* Command input area "Type a command..." */
-div.style-module_LI1icUp6.style-module_kBA8Pcfy {
-  background-color: rgba(255,255,255,0.06) !important;
-  backdrop-filter: blur(12px) !important;
-  -webkit-backdrop-filter: blur(12px) !important;
-  border-top: 1px solid rgba(255,255,255,0.10) !important;
-  border-radius: 0 0 10px 10px !important;
-}
+
 
 /* Container tombol Start/Restart/Stop */
 div.flex.sm\:justify-end.space-x-2 {
@@ -737,28 +683,43 @@ div.w-full.bg-neutral-900.shadow-md.overflow-x-auto{
     background-color: transparent !important;
 }
 
-/* Container console */
-.terminal.xterm {
-    background: rgba(0,0,0,.45) !important;
+
+
+
+/* ==========================
+   UNIFIED CONSOLE
+   ========================== */
+
+div.style-module_uC90C8g3.relative {
+    background: rgba(255,255,255,.06) !important;
     backdrop-filter: blur(16px) !important;
     -webkit-backdrop-filter: blur(16px) !important;
+
+    border: 1px solid rgba(255,255,255,.12) !important;
+    border-radius: 12px !important;
+    overflow: hidden !important;
 }
 
-/* Hilangkan layer hitam bawaan xterm */
-.terminal.xterm .xterm-viewport,
-.terminal.xterm .xterm-screen {
+/* Terminal tanpa layer sendiri */
+.terminal.xterm,
+.xterm,
+.xterm-screen,
+.xterm-viewport {
     background: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
-/* Paksa style inline bawaan xterm kalah */
-.terminal.xterm .xterm-viewport[style] {
+/* Input menyatu dengan card */
+div.style-module_LI1icUp6.style-module_kBA8Pcfy,
+div.style-module_kBA8Pcfy {
     background: transparent !important;
-    background-color: transparent !important;
-}
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
 
-.relative.style-module_kBA8Pcfy {
-    background: rgba(0,0,0,.45) !important;
-    backdrop-filter: blur(16px) !important;
-    -webkit-backdrop-filter: blur(16px) !important;
+    border: 0 !important;
     border-top: 1px solid rgba(255,255,255,.08) !important;
+    border-radius: 0 !important;
 }
