@@ -723,3 +723,17 @@ div.style-module_kBA8Pcfy {
     border-top: 1px solid rgba(255,255,255,.08) !important;
     border-radius: 0 !important;
 }
+
+
+/* Clip xterm canvas biar ga overflow */
+div.style-module_uC90C8g3.relative .xterm,
+div.style-module_uC90C8g3.relative .xterm-screen,
+div.style-module_uC90C8g3.relative .xterm-screen canvas {
+    max-width: 100% !important;
+    overflow: hidden !important;
+}
+
+div.style-module_uC90C8g3.relative {
+    overflow: hidden !important;
+    max-width: 100% !important;
+}
