@@ -732,3 +732,15 @@ div.style-module_MnMgRF73 strong {
 div.style-module_MnMgRF73:hover strong {
     filter: blur(0px) !important;
 }
+
+/* Blur IP address, reveal on hover */
+div.mt-1.flex.items-center.text-sm span {
+    filter: blur(4px) !important;
+    transition: filter 0.2s ease !important;
+    cursor: pointer !important;
+    user-select: none !important;
+}
+
+div.mt-1.flex.items-center.text-sm:hover span {
+    filter: blur(0px) !important;
+}
