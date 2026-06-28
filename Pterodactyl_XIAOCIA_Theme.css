@@ -678,3 +678,19 @@ div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last\:rounded-b.last\:bord
     border-radius: 10px !important;
     margin-bottom: 4px !important;
 }
+
+/* ==========================
+   SETTINGS PAGE
+   ========================== */
+
+div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.SettingsContainer___StyledTitledGreyBox-sc-1e5ycmz-3,
+div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.loyqsd,
+div.SettingsContainer___StyledDiv4-sc-1e5ycmz-5,
+div.SettingsContainer___StyledDiv5-sc-1e5ycmz-6 {
+    background: rgba(255,255,255,0.06) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 12px !important;
+}
