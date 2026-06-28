@@ -700,3 +700,9 @@ code.font-mono.bg-neutral-900 {
     background: rgba(255,255,255,0.06) !important;
     border: 1px solid rgba(255,255,255,0.10) !important;
 }
+
+/* Network notes textarea */
+textarea.Input__Textarea-sc-19rce1w-1.bg-neutral-800 {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+}
