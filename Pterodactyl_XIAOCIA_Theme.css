@@ -736,3 +736,29 @@ div.w-full.bg-neutral-900.shadow-md.overflow-x-auto{
     background: transparent !important;
     background-color: transparent !important;
 }
+
+/* Container console */
+.terminal.xterm {
+    background: rgba(0,0,0,.45) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+}
+
+/* Hilangkan layer hitam bawaan xterm */
+.terminal.xterm .xterm-viewport,
+.terminal.xterm .xterm-screen {
+    background: transparent !important;
+}
+
+/* Paksa style inline bawaan xterm kalah */
+.terminal.xterm .xterm-viewport[style] {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+.relative.style-module_kBA8Pcfy {
+    background: rgba(0,0,0,.45) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border-top: 1px solid rgba(255,255,255,.08) !important;
+}
