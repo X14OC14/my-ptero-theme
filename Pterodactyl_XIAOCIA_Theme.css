@@ -844,3 +844,17 @@ div.TitledGreyBox___StyledDiv-sc-gvsoy-0.kXcdzM {
     border: 1px solid rgba(255,255,255,0.10) !important;
     border-radius: 12px !important;
 }
+
+/* Startup - input & select fields */
+input.Input-sc-19rce1w-0.lbwZzj {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 6px !important;
+}
+
+select.Select-sc-17exaqp-0.fqomSy {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 6px !important;
+    color: white !important;
+}
