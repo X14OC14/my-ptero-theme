@@ -744,3 +744,37 @@ code.SettingsContainer___StyledCode2-sc-1e5ycmz-14 {
     border: 1px solid rgba(255,255,255,0.10) !important;
     border-radius: 6px !important;
 }
+
+/* ==========================
+   CONSOLE - START/RESTART/STOP BUTTONS
+   ========================== */
+
+/* Start - Green glass */
+button.style-module_tpzh9TL4.style-module_G19Z2bxH.flex-1:not([class*="ATwWHiM7"]):not([class*="TENjnzzX"]) {
+    background: rgba(34,197,94,0.25) !important;
+    border: 1px solid rgba(34,197,94,0.5) !important;
+    color: rgb(134,239,172) !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* Restart - Yellow glass */
+button.style-module_tpzh9TL4.style-module_ATwWHiM7.flex-1 {
+    background: rgba(234,179,8,0.25) !important;
+    border: 1px solid rgba(234,179,8,0.5) !important;
+    color: rgb(253,224,71) !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
+
+/* Stop/Kill - Red glass */
+button.style-module_tpzh9TL4.style-module_TENjnzzX.flex-1 {
+    background: rgba(239,68,68,0.25) !important;
+    border: 1px solid rgba(239,68,68,0.5) !important;
+    color: rgb(252,165,165) !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
