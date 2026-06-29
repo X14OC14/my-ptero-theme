@@ -865,3 +865,10 @@ p.StartupContainer___StyledP-sc-163imy2-3 {
     border: 1px solid rgba(255,255,255,0.10) !important;
     border-radius: 6px !important;
 }
+
+/* Console - disabled button state */
+button.style-module_tpzh9TL4.flex-1:disabled {
+    opacity: 0.3 !important;
+    cursor: not-allowed !important;
+    filter: grayscale(50%) !important;
+}
