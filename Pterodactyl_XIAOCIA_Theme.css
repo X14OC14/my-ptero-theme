@@ -792,3 +792,13 @@ input.Input-sc-19rce1w-0.SelectFileCheckbox__FileActionCheckbox-sc-1cv6gsl-0 {
     opacity: 1 !important;
     accent-color: #38282B !important;
 }
+
+/* Databases/Backups/Network - action buttons glass */
+button.Button__ButtonStyle-sc-1qu1gou-0.gDpwnP {
+    background: rgba(255,255,255,0.08) !important;
+    border: 1px solid rgba(255,255,255,0.15) !important;
+    border-radius: 8px !important;
+    color: white !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
