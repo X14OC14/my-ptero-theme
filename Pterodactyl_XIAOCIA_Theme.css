@@ -1,5 +1,5 @@
 html {
-  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/jinx.webp");
+  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/bg.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -683,21 +683,8 @@ div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last\:rounded-b.last\:bord
    SETTINGS PAGE
    ========================== */
 
-div.SettingsContainer___StyledDiv2-sc-1e5ycmz-2,
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.SettingsContainer___StyledTitledGreyBox-sc-1e5ycmz-3,
-div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.loyqsd,
-div.SettingsContainer___StyledDiv4-sc-1e5ycmz-5,
-div.SettingsContainer___StyledDiv5-sc-1e5ycmz-6 {
-    background: rgba(255,255,255,0.06) !important;
-    backdrop-filter: blur(16px) !important;
-    -webkit-backdrop-filter: blur(16px) !important;
-    border: 1px solid rgba(255,255,255,0.10) !important;
-    border-radius: 12px !important;
-}
-
-/* Settings page - right column cards */
-div.SettingsContainer___StyledDiv0-sc-1e5ycmz-15,
-div.SettingsContainer___StyledDiv1-sc-1e5ycmz-16,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.SettingsContainer___StyledTitledGreyBox2-sc-1e5ycmz-10,
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.RenameServerBox___StyledTitledGreyBox-sc-1bh2mfg-0,
 div.TitledGreyBox___StyledDiv-sc-gvsoy-0.ReinstallServerBox___StyledTitledGreyBox-sc-1prmksw-0 {
     background: rgba(255,255,255,0.06) !important;
