@@ -802,3 +802,31 @@ button.Button__ButtonStyle-sc-1qu1gou-0.gDpwnP {
     backdrop-filter: blur(8px) !important;
     -webkit-backdrop-filter: blur(8px) !important;
 }
+
+/* Files - custom checkbox style */
+input.Input-sc-19rce1w-0.SelectFileCheckbox__FileActionCheckbox-sc-1cv6gsl-0 {
+    appearance: none !important;
+    -webkit-appearance: none !important;
+    width: 16px !important;
+    height: 16px !important;
+    border: 1px solid rgba(255,255,255,0.3) !important;
+    border-radius: 4px !important;
+    background: rgba(255,255,255,0.06) !important;
+    cursor: pointer !important;
+    position: relative !important;
+}
+
+input.Input-sc-19rce1w-0.SelectFileCheckbox__FileActionCheckbox-sc-1cv6gsl-0:checked {
+    background: rgba(56,40,43,0.8) !important;
+    border-color: rgba(255,255,255,0.5) !important;
+}
+
+input.Input-sc-19rce1w-0.SelectFileCheckbox__FileActionCheckbox-sc-1cv6gsl-0:checked::after {
+    content: '✓' !important;
+    position: absolute !important;
+    color: white !important;
+    font-size: 11px !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+}
