@@ -784,3 +784,11 @@ input.peer.style-module_g8HBAuZB {
     background: transparent !important;
     border: none !important;
 }
+
+/* Files - checkbox fix */
+input.Input-sc-19rce1w-0.SelectFileCheckbox__FileActionCheckbox-sc-1cv6gsl-0 {
+    appearance: auto !important;
+    -webkit-appearance: checkbox !important;
+    opacity: 1 !important;
+    accent-color: #38282B !important;
+}
