@@ -716,9 +716,10 @@ button.style-module_tpzh9TL4.style-module_ATwWHiM7 {
 
 /* Settings - Save button */
 button.style-module_tpzh9TL4.style-module_G19Z2bxH:not([class*="ou_QoN1U"]) {
-    background: rgba(56,40,43,0.8) !important;
+    background: rgba(255,255,255,0.08) !important;
     border: 1px solid rgba(255,255,255,0.12) !important;
     border-radius: 8px !important;
+    color: white !important;
 }
 
 /* Settings - Launch SFTP button fix (hapus warna aneh) */
