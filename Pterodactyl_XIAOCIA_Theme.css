@@ -858,3 +858,10 @@ select.Select-sc-17exaqp-0.fqomSy {
     border-radius: 6px !important;
     color: white !important;
 }
+
+/* Startup - startup command display */
+p.StartupContainer___StyledP-sc-163imy2-3 {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 6px !important;
+}
