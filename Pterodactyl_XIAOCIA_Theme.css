@@ -1,5 +1,5 @@
 html {
-  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/bg.webp");
+  background-image: url("https://raw.githubusercontent.com/X14OC14/my-ptero-theme/main/assets/jinx.webp");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-position: center center;
@@ -712,4 +712,34 @@ button.style-module_tpzh9TL4.style-module_ATwWHiM7 {
     background: rgba(56,40,43,0.8) !important;
     border: 1px solid rgba(255,255,255,0.12) !important;
     border-radius: 8px !important;
+}
+
+/* Settings - Save button */
+button.style-module_tpzh9TL4.style-module_G19Z2bxH:not([class*="ou_QoN1U"]) {
+    background: rgba(56,40,43,0.8) !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    border-radius: 8px !important;
+}
+
+/* Settings - Launch SFTP button fix (hapus warna aneh) */
+button.style-module_tpzh9TL4.style-module_ATwWHiM7 {
+    background: rgba(255,255,255,0.08) !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    border-radius: 8px !important;
+    color: white !important;
+}
+
+/* Settings - Server Description textarea */
+textarea.Input__Textarea-sc-19rce1w-1.dqajBA {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 6px !important;
+}
+
+/* Settings - Node & Server ID code fields */
+code.SettingsContainer___StyledCode-sc-1e5ycmz-12,
+code.SettingsContainer___StyledCode2-sc-1e5ycmz-14 {
+    background: rgba(255,255,255,0.06) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 6px !important;
 }
