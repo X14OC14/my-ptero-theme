@@ -830,3 +830,17 @@ input.Input-sc-19rce1w-0.SelectFileCheckbox__FileActionCheckbox-sc-1cv6gsl-0:che
     left: 50% !important;
     transform: translate(-50%, -50%) !important;
 }
+
+/* ==========================
+   STARTUP PAGE
+   ========================== */
+
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.StartupContainer___StyledTitledGreyBox-sc-163imy2-1,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.StartupContainer___StyledTitledGreyBox2-sc-163imy2-4,
+div.TitledGreyBox___StyledDiv-sc-gvsoy-0.kXcdzM {
+    background: rgba(255,255,255,0.06) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(255,255,255,0.10) !important;
+    border-radius: 12px !important;
+}
