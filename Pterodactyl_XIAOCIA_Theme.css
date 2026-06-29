@@ -778,3 +778,9 @@ button.style-module_tpzh9TL4.style-module_TENjnzzX.flex-1 {
     backdrop-filter: blur(8px) !important;
     -webkit-backdrop-filter: blur(8px) !important;
 }
+
+/* Console - Type a command input */
+input.peer.style-module_g8HBAuZB {
+    background: transparent !important;
+    border: none !important;
+}
