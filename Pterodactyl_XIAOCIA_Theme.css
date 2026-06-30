@@ -891,3 +891,18 @@ button.style-module_tpzh9TL4.style-module_TENjnzzX {
     backdrop-filter: blur(8px) !important;
     -webkit-backdrop-filter: blur(8px) !important;
 }
+
+/* Backups - fix dropdown menu z-index & overflow */
+div.GreyRowBox-sc-1xo9c6v-0,
+a.GreyRowBox-sc-1xo9c6v-0 {
+    overflow: visible !important;
+}
+
+div.DropdownMenu___StyledDiv-sc-1ojgpy2-1 {
+    z-index: 9999 !important;
+    background: rgba(20,15,17,0.95) !important;
+    backdrop-filter: blur(16px) !important;
+    -webkit-backdrop-filter: blur(16px) !important;
+    border: 1px solid rgba(255,255,255,0.12) !important;
+    border-radius: 8px !important;
+}
