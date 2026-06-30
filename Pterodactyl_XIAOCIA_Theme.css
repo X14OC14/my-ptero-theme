@@ -881,3 +881,13 @@ button.style-module_tpzh9TL4.flex-1:disabled {
 .xterm-viewport {
     scrollbar-width: none !important;
 }
+
+/* Files - Delete button red glass */
+button.style-module_tpzh9TL4.style-module_TENjnzzX {
+    background: rgba(239,68,68,0.25) !important;
+    border: 1px solid rgba(239,68,68,0.5) !important;
+    color: rgb(252,165,165) !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(8px) !important;
+    -webkit-backdrop-filter: blur(8px) !important;
+}
